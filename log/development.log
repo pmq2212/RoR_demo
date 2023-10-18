@@ -1,0 +1,1300 @@
+  [1m[35m (1.9ms)[0m  [1m[35mCREATE DATABASE `ror_demo_development` DEFAULT CHARACTER SET `utf8mb4`[0m
+  [1m[35m (0.6ms)[0m  [1m[35mCREATE DATABASE `ror_demo_test` DEFAULT CHARACTER SET `utf8mb4`[0m
+Started GET "/" for 127.0.0.1 at 2023-10-18 13:32:24 +0700
+  
+ArgumentError ('' is not a supported controller name. This can lead to potential routing problems. See https://guides.rubyonrails.org/routing.html#specifying-a-controller-to-use):
+  
+config/routes.rb:7:in `block in <main>'
+config/routes.rb:1:in `<main>'
+Started GET "/Users" for 127.0.0.1 at 2023-10-18 13:37:44 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/Users"):
+  
+Started GET "/users" for 127.0.0.1 at 2023-10-18 13:37:49 +0700
+Processing by UsersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  Rendered users/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 104)
+  Rendered layout layouts/application.html.erb (Duration: 640.1ms | Allocations: 102154)
+Completed 500 Internal Server Error in 666ms (ActiveRecord: 0.0ms | Allocations: 105319)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `javascript_importmap_tags' for #<ActionView::Base:0x0000000000d3b8>):
+     7:     <%= csp_meta_tag %>
+     8: 
+     9:     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    10:     <%= javascript_importmap_tags %>
+    11:   </head>
+    12: 
+    13:   <body>
+  
+app/views/layouts/application.html.erb:10
+Started GET "/users/" for 127.0.0.1 at 2023-10-18 13:38:09 +0700
+Processing by UsersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  Rendered users/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 5.0ms | Allocations: 2004)
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms | Allocations: 2239)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `javascript_importmap_tags' for #<ActionView::Base:0x0000000000d6d8>):
+     7:     <%= csp_meta_tag %>
+     8: 
+     9:     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    10:     <%= javascript_importmap_tags %>
+    11:   </head>
+    12: 
+    13:   <body>
+  
+app/views/layouts/application.html.erb:10
+Started GET "/users/" for 127.0.0.1 at 2023-10-18 13:39:07 +0700
+Processing by UsersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  Rendered users/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 3.8ms | Allocations: 2002)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms | Allocations: 2235)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `javascript_importmap_tags' for #<ActionView::Base:0x0000000000d9d0>):
+     7:     <%= csp_meta_tag %>
+     8: 
+     9:     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    10:     <%= javascript_importmap_tags %>
+    11:   </head>
+    12: 
+    13:   <body>
+  
+app/views/layouts/application.html.erb:10
+Started GET "/users/index" for 127.0.0.1 at 2023-10-18 13:40:54 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/users/index"):
+  
+Started GET "/users/index" for 127.0.0.1 at 2023-10-18 13:42:40 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/users/index"):
+  
+Started GET "/users/index" for 127.0.0.1 at 2023-10-18 13:42:43 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/users/index"):
+  
+Started GET "/user/index" for 127.0.0.1 at 2023-10-18 13:42:48 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/user/index"):
+  
+Started GET "/users/index" for 127.0.0.1 at 2023-10-18 13:42:55 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/users/index"):
+  
+Started GET "/users" for 127.0.0.1 at 2023-10-18 13:42:58 +0700
+Processing by UsersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  Rendered users/index.html.erb within layouts/application (Duration: 0.9ms | Allocations: 103)
+  Rendered layout layouts/application.html.erb (Duration: 91.1ms | Allocations: 23154)
+Completed 500 Internal Server Error in 108ms (ActiveRecord: 0.0ms | Allocations: 25642)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `javascript_importmap_tags' for #<ActionView::Base:0x0000000000d908>):
+     7:     <%= csp_meta_tag %>
+     8: 
+     9:     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    10:     <%= javascript_importmap_tags %>
+    11:   </head>
+    12: 
+    13:   <body>
+  
+app/views/layouts/application.html.erb:10
+Started GET "/users" for 127.0.0.1 at 2023-10-18 13:43:10 +0700
+Processing by UsersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  Rendered users/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 3.6ms | Allocations: 2002)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms | Allocations: 2235)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `javascript_importmap_tags' for #<ActionView::Base:0x0000000000dc00>):
+     7:     <%= csp_meta_tag %>
+     8: 
+     9:     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    10:     <%= javascript_importmap_tags %>
+    11:   </head>
+    12: 
+    13:   <body>
+  
+app/views/layouts/application.html.erb:10
+Started GET "/users" for 127.0.0.1 at 2023-10-18 13:44:34 +0700
+Processing by UsersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  Rendered users/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 4.0ms | Allocations: 2002)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms | Allocations: 2235)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `javascript_importmap_tags' for #<ActionView::Base:0x0000000000def8>):
+     7:     <%= csp_meta_tag %>
+     8: 
+     9:     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    10:     <%= javascript_importmap_tags %>
+    11:   </head>
+    12: 
+    13:   <body>
+  
+app/views/layouts/application.html.erb:10
+Started GET "/" for 127.0.0.1 at 2023-10-18 13:44:37 +0700
+Processing by Rails::WelcomeController#index as HTML
+  Rendering C:/Ruby32-x64/lib/ruby/gems/3.2.0/gems/railties-7.0.8/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered C:/Ruby32-x64/lib/ruby/gems/3.2.0/gems/railties-7.0.8/lib/rails/templates/rails/welcome/index.html.erb (Duration: 1.0ms | Allocations: 283)
+Completed 200 OK in 5ms (Views: 2.3ms | ActiveRecord: 0.0ms | Allocations: 1362)
+
+
+Started GET "/users" for 127.0.0.1 at 2023-10-18 13:44:48 +0700
+Processing by UsersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  Rendered users/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 101)
+  Rendered layout layouts/application.html.erb (Duration: 5.2ms | Allocations: 2356)
+Completed 500 Internal Server Error in 13ms (ActiveRecord: 0.0ms | Allocations: 3502)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `javascript_importmap_tags' for #<ActionView::Base:0x0000000000e358>):
+     7:     <%= csp_meta_tag %>
+     8: 
+     9:     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    10:     <%= javascript_importmap_tags %>
+    11:   </head>
+    12: 
+    13:   <body>
+  
+app/views/layouts/application.html.erb:10
+Started GET "/users" for 127.0.0.1 at 2023-10-18 13:49:27 +0700
+Processing by UsersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  Rendered users/index.html.erb within layouts/application (Duration: 3.4ms | Allocations: 329)
+Importmap skipped missing path: turbo.min.js
+Importmap skipped missing path: stimulus.min.js
+Importmap skipped missing path: stimulus-loading.js
+Importmap skipped missing path: turbo.min.js
+Importmap skipped missing path: stimulus.min.js
+Importmap skipped missing path: stimulus-loading.js
+  Rendered layout layouts/application.html.erb (Duration: 713.1ms | Allocations: 142329)
+Completed 200 OK in 1086ms (Views: 725.5ms | ActiveRecord: 0.0ms | Allocations: 184334)
+
+
+  [1m[35m (17.6ms)[0m  [1m[35mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL PRIMARY KEY)[0m
+  [1m[35m (9.5ms)[0m  [1m[35mCREATE TABLE `ar_internal_metadata` (`key` varchar(255) NOT NULL PRIMARY KEY, `value` varchar(255), `created_at` datetime(6) NOT NULL, `updated_at` datetime(6) NOT NULL)[0m
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT GET_LOCK('316533490291013310', 0)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (3.1ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Migrating to CreateUsers (20231018065148)
+  [1m[35m (10.7ms)[0m  [1m[35mCREATE TABLE `users` (`id` bigint NOT NULL AUTO_INCREMENT PRIMARY KEY, `userId` varchar(255), `name` varchar(255), `email` varchar(255), `created_at` datetime(6) NOT NULL, `updated_at` datetime(6) NOT NULL)[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.5ms)[0m  [1m[32mINSERT INTO `schema_migrations` (`version`) VALUES ('20231018065148')[0m
+  [1m[36mTRANSACTION (1.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (1.0ms)[0m  [1m[34mSELECT `ar_internal_metadata`.* FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment' LIMIT 1[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.9ms)[0m  [1m[32mINSERT INTO `ar_internal_metadata` (`key`, `value`, `created_at`, `updated_at`) VALUES ('environment', 'development', '2023-10-18 06:53:08.950831', '2023-10-18 06:53:08.950831')[0m
+  [1m[36mTRANSACTION (1.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT RELEASE_LOCK('316533490291013310')[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.4ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Started GET "/users/new" for 127.0.0.1 at 2023-10-18 14:02:59 +0700
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.5ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by UsersController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (Duration: 16.7ms | Allocations: 3435)
+Importmap skipped missing path: turbo.min.js
+Importmap skipped missing path: stimulus.min.js
+Importmap skipped missing path: stimulus-loading.js
+Importmap skipped missing path: turbo.min.js
+Importmap skipped missing path: stimulus.min.js
+Importmap skipped missing path: stimulus-loading.js
+  Rendered layout layouts/application.html.erb (Duration: 250.1ms | Allocations: 50801)
+Completed 200 OK in 632ms (Views: 263.1ms | ActiveRecord: 4.2ms | Allocations: 98138)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2023-10-18 14:05:04 +0700
+Processing by UsersController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (Duration: 3.5ms | Allocations: 1225)
+  Rendered layout layouts/application.html.erb (Duration: 10.9ms | Allocations: 3451)
+Completed 200 OK in 22ms (Views: 18.6ms | ActiveRecord: 0.0ms | Allocations: 4663)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2023-10-18 14:06:40 +0700
+Processing by UsersController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (Duration: 2.2ms | Allocations: 1124)
+  Rendered layout layouts/application.html.erb (Duration: 10.9ms | Allocations: 3349)
+Completed 200 OK in 23ms (Views: 19.4ms | ActiveRecord: 0.0ms | Allocations: 4558)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2023-10-18 14:29:16 +0700
+  [1m[36mActiveRecord::SchemaMigration Pluck (1.1ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by UsersController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (Duration: 12.1ms | Allocations: 2327)
+Importmap skipped missing path: turbo.min.js
+Importmap skipped missing path: stimulus.min.js
+Importmap skipped missing path: stimulus-loading.js
+Importmap skipped missing path: turbo.min.js
+Importmap skipped missing path: stimulus.min.js
+Importmap skipped missing path: stimulus-loading.js
+  Rendered layout layouts/application.html.erb (Duration: 249.5ms | Allocations: 49791)
+Completed 200 OK in 642ms (Views: 261.7ms | ActiveRecord: 3.9ms | Allocations: 97052)
+
+
+Started POST "/users" for 127.0.0.1 at 2023-10-18 14:32:07 +0700
+Processing by UsersController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"userId"=>"123", "name"=>"aaaa", "email"=>"asdasd"}, "commit"=>"Create"}
+Completed 400 Bad Request in 3ms (ActiveRecord: 0.0ms | Allocations: 756)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: post):
+  
+app/controllers/users_controller.rb:30:in `post_params'
+app/controllers/users_controller.rb:11:in `create'
+Started GET "/users" for 127.0.0.1 at 2023-10-18 14:32:46 +0700
+Processing by UsersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (1.3ms)[0m  [1m[34mSELECT `users`.* FROM `users`[0m
+  ↳ app/views/users/index.html.erb:4
+  Rendered users/index.html.erb within layouts/application (Duration: 3.4ms | Allocations: 885)
+Importmap skipped missing path: turbo.min.js
+Importmap skipped missing path: stimulus.min.js
+Importmap skipped missing path: stimulus-loading.js
+Importmap skipped missing path: turbo.min.js
+Importmap skipped missing path: stimulus.min.js
+Importmap skipped missing path: stimulus-loading.js
+  Rendered layout layouts/application.html.erb (Duration: 57.7ms | Allocations: 23180)
+Completed 200 OK in 70ms (Views: 63.1ms | ActiveRecord: 1.3ms | Allocations: 25069)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2023-10-18 14:34:13 +0700
+Processing by UsersController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (Duration: 2.2ms | Allocations: 1164)
+  Rendered layout layouts/application.html.erb (Duration: 9.0ms | Allocations: 3394)
+Completed 200 OK in 27ms (Views: 16.4ms | ActiveRecord: 4.5ms | Allocations: 6298)
+
+
+Started POST "/users" for 127.0.0.1 at 2023-10-18 14:34:18 +0700
+Processing by UsersController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"userId"=>"123", "name"=>"123", "email"=>"aaaa"}, "commit"=>"Create"}
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:13:in `create'
+  [1m[36mUser Create (1.1ms)[0m  [1m[32mINSERT INTO `users` (`userId`, `name`, `email`, `created_at`, `updated_at`) VALUES ('123', '123', 'aaaa', '2023-10-18 07:34:19.074168', '2023-10-18 07:34:19.074168')[0m
+  ↳ app/controllers/users_controller.rb:13:in `create'
+  [1m[36mTRANSACTION (1.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:13:in `create'
+Completed 500 Internal Server Error in 12ms (ActiveRecord: 2.6ms | Allocations: 3753)
+
+
+  
+NameError (undefined local variable or method `posts_path' for #<UsersController:0x00000000011378>):
+  
+app/controllers/users_controller.rb:14:in `create'
+Started GET "/users" for 127.0.0.1 at 2023-10-18 14:36:58 +0700
+Processing by UsersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users`[0m
+  ↳ app/views/users/index.html.erb:4
+  Rendered users/index.html.erb within layouts/application (Duration: 10.2ms | Allocations: 2755)
+Importmap skipped missing path: turbo.min.js
+Importmap skipped missing path: stimulus.min.js
+Importmap skipped missing path: stimulus-loading.js
+Importmap skipped missing path: turbo.min.js
+Importmap skipped missing path: stimulus.min.js
+Importmap skipped missing path: stimulus-loading.js
+  Rendered layout layouts/application.html.erb (Duration: 53.9ms | Allocations: 24738)
+Completed 200 OK in 62ms (Views: 51.7ms | ActiveRecord: 3.6ms | Allocations: 25964)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2023-10-18 14:38:30 +0700
+Processing by UsersController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (Duration: 2.9ms | Allocations: 1156)
+  Rendered layout layouts/application.html.erb (Duration: 9.5ms | Allocations: 3380)
+Completed 200 OK in 20ms (Views: 16.1ms | ActiveRecord: 0.0ms | Allocations: 4600)
+
+
+Started POST "/users" for 127.0.0.1 at 2023-10-18 14:38:36 +0700
+Processing by UsersController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"userId"=>"2", "name"=>"aa", "email"=>"333"}, "commit"=>"Create"}
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:13:in `create'
+  [1m[36mUser Create (0.7ms)[0m  [1m[32mINSERT INTO `users` (`userId`, `name`, `email`, `created_at`, `updated_at`) VALUES ('2', 'aa', '333', '2023-10-18 07:38:36.558487', '2023-10-18 07:38:36.558487')[0m
+  ↳ app/controllers/users_controller.rb:13:in `create'
+  [1m[36mTRANSACTION (1.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:13:in `create'
+Redirected to http://127.0.0.1:3000/users
+Completed 302 Found in 11ms (ActiveRecord: 2.0ms | Allocations: 2436)
+
+
+Started GET "/users" for 127.0.0.1 at 2023-10-18 14:38:36 +0700
+Processing by UsersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT `users`.* FROM `users`[0m
+  ↳ app/views/users/index.html.erb:4
+  Rendered users/index.html.erb within layouts/application (Duration: 3.7ms | Allocations: 977)
+  Rendered layout layouts/application.html.erb (Duration: 10.7ms | Allocations: 3087)
+Completed 200 OK in 14ms (Views: 11.1ms | ActiveRecord: 0.3ms | Allocations: 3430)
+
+
+Started GET "/users/1/edit" for 127.0.0.1 at 2023-10-18 14:41:46 +0700
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (1.7ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/users_controller.rb:21:in `edit'
+  Rendering layout layouts/application.html.erb
+  Rendering users/edit.html.erb within layouts/application
+  Rendered users/edit.html.erb within layouts/application (Duration: 5.3ms | Allocations: 1285)
+Importmap skipped missing path: turbo.min.js
+Importmap skipped missing path: stimulus.min.js
+Importmap skipped missing path: stimulus-loading.js
+Importmap skipped missing path: turbo.min.js
+Importmap skipped missing path: stimulus.min.js
+Importmap skipped missing path: stimulus-loading.js
+  Rendered layout layouts/application.html.erb (Duration: 66.9ms | Allocations: 23254)
+Completed 200 OK in 101ms (Views: 74.9ms | ActiveRecord: 5.4ms | Allocations: 29089)
+
+
+Started GET "/users/1/edit" for 127.0.0.1 at 2023-10-18 14:43:18 +0700
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/users_controller.rb:21:in `edit'
+  Rendering layout layouts/application.html.erb
+  Rendering users/edit.html.erb within layouts/application
+  Rendered users/edit.html.erb within layouts/application (Duration: 1.1ms | Allocations: 968)
+Importmap skipped missing path: turbo.min.js
+Importmap skipped missing path: stimulus.min.js
+Importmap skipped missing path: stimulus-loading.js
+Importmap skipped missing path: turbo.min.js
+Importmap skipped missing path: stimulus.min.js
+Importmap skipped missing path: stimulus-loading.js
+  Rendered layout layouts/application.html.erb (Duration: 44.6ms | Allocations: 22816)
+Completed 200 OK in 65ms (Views: 47.5ms | ActiveRecord: 6.1ms | Allocations: 26775)
+
+
+Started PATCH "/users/1" for 127.0.0.1 at 2023-10-18 14:43:28 +0700
+  
+ActionController::RoutingError (No route matches [PATCH] "/users/1"):
+  
+Started GET "/users/1/edit" for 127.0.0.1 at 2023-10-18 14:45:59 +0700
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/users_controller.rb:21:in `edit'
+  Rendering layout layouts/application.html.erb
+  Rendering users/edit.html.erb within layouts/application
+  Rendered users/edit.html.erb within layouts/application (Duration: 1.6ms | Allocations: 869)
+  Rendered layout layouts/application.html.erb (Duration: 8.9ms | Allocations: 2817)
+Completed 200 OK in 14ms (Views: 10.0ms | ActiveRecord: 0.4ms | Allocations: 3621)
+
+
+Started PATCH "/users/1" for 127.0.0.1 at 2023-10-18 14:46:06 +0700
+  
+ActionController::RoutingError (No route matches [PATCH] "/users/1"):
+  
+Started GET "/users/1/edit" for 127.0.0.1 at 2023-10-18 14:47:49 +0700
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/users_controller.rb:21:in `edit'
+  Rendering layout layouts/application.html.erb
+  Rendering users/edit.html.erb within layouts/application
+  Rendered users/edit.html.erb within layouts/application (Duration: 1.3ms | Allocations: 863)
+  Rendered layout layouts/application.html.erb (Duration: 9.3ms | Allocations: 2822)
+Completed 200 OK in 14ms (Views: 10.4ms | ActiveRecord: 0.3ms | Allocations: 3626)
+
+
+Started PATCH "/users/1" for 127.0.0.1 at 2023-10-18 14:47:52 +0700
+  
+ActionController::RoutingError (No route matches [PATCH] "/users/1"):
+  
+Started GET "/users/2/edit" for 127.0.0.1 at 2023-10-18 14:48:37 +0700
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  ↳ app/controllers/users_controller.rb:21:in `edit'
+  Rendering layout layouts/application.html.erb
+  Rendering users/edit.html.erb within layouts/application
+  Rendered users/edit.html.erb within layouts/application (Duration: 1.2ms | Allocations: 848)
+  Rendered layout layouts/application.html.erb (Duration: 7.0ms | Allocations: 2807)
+Completed 200 OK in 12ms (Views: 7.7ms | ActiveRecord: 0.4ms | Allocations: 3611)
+
+
+Started PATCH "/users/2" for 127.0.0.1 at 2023-10-18 14:48:40 +0700
+  
+ActionController::RoutingError (No route matches [PATCH] "/users/2"):
+  
+Started GET "/users" for 127.0.0.1 at 2023-10-18 14:48:45 +0700
+Processing by UsersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users`[0m
+  ↳ app/views/users/index.html.erb:4
+  Rendered users/index.html.erb within layouts/application (Duration: 3.8ms | Allocations: 1010)
+  Rendered layout layouts/application.html.erb (Duration: 10.0ms | Allocations: 3133)
+Completed 200 OK in 14ms (Views: 10.7ms | ActiveRecord: 0.4ms | Allocations: 3478)
+
+
+Started GET "/users/1/edit" for 127.0.0.1 at 2023-10-18 14:48:55 +0700
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/users_controller.rb:21:in `edit'
+  Rendering layout layouts/application.html.erb
+  Rendering users/edit.html.erb within layouts/application
+  Rendered users/edit.html.erb within layouts/application (Duration: 1.3ms | Allocations: 845)
+  Rendered layout layouts/application.html.erb (Duration: 8.4ms | Allocations: 2791)
+Completed 200 OK in 13ms (Views: 9.1ms | ActiveRecord: 0.4ms | Allocations: 3594)
+
+
+Started GET "/users/1/edit" for 127.0.0.1 at 2023-10-18 14:54:38 +0700
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.4ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/users_controller.rb:21:in `edit'
+  Rendering layout layouts/application.html.erb
+  Rendering users/edit.html.erb within layouts/application
+  Rendered users/edit.html.erb within layouts/application (Duration: 14.3ms | Allocations: 2423)
+Importmap skipped missing path: turbo.min.js
+Importmap skipped missing path: stimulus.min.js
+Importmap skipped missing path: stimulus-loading.js
+Importmap skipped missing path: turbo.min.js
+Importmap skipped missing path: stimulus.min.js
+Importmap skipped missing path: stimulus-loading.js
+  Rendered layout layouts/application.html.erb (Duration: 155.2ms | Allocations: 49793)
+Completed 200 OK in 548ms (Views: 166.3ms | ActiveRecord: 5.1ms | Allocations: 99453)
+
+
+Started GET "/users" for 127.0.0.1 at 2023-10-18 14:54:41 +0700
+Processing by UsersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users`[0m
+  ↳ app/views/users/index.html.erb:4
+  Rendered users/index.html.erb within layouts/application (Duration: 4.2ms | Allocations: 1432)
+  Rendered layout layouts/application.html.erb (Duration: 12.5ms | Allocations: 3569)
+Completed 200 OK in 16ms (Views: 12.9ms | ActiveRecord: 0.4ms | Allocations: 3922)
+
+
+Started GET "/users/1" for 127.0.0.1 at 2023-10-18 14:54:43 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/users/1"):
+  
+Started GET "/users" for 127.0.0.1 at 2023-10-18 14:56:40 +0700
+Processing by UsersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users`[0m
+  ↳ app/views/users/index.html.erb:4
+  Rendered users/index.html.erb within layouts/application (Duration: 9.9ms | Allocations: 2751)
+Importmap skipped missing path: turbo.min.js
+Importmap skipped missing path: stimulus.min.js
+Importmap skipped missing path: stimulus-loading.js
+Importmap skipped missing path: turbo.min.js
+Importmap skipped missing path: stimulus.min.js
+Importmap skipped missing path: stimulus-loading.js
+  Rendered layout layouts/application.html.erb (Duration: 51.4ms | Allocations: 24766)
+Completed 200 OK in 58ms (Views: 49.0ms | ActiveRecord: 4.4ms | Allocations: 25940)
+
+
+Started GET "/users/1" for 127.0.0.1 at 2023-10-18 14:56:47 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/users/1"):
+  
+Started GET "/users/1/edit" for 127.0.0.1 at 2023-10-18 14:59:36 +0700
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/users_controller.rb:21:in `edit'
+  Rendering layout layouts/application.html.erb
+  Rendering users/edit.html.erb within layouts/application
+  Rendered users/edit.html.erb within layouts/application (Duration: 1.2ms | Allocations: 924)
+  Rendered layout layouts/application.html.erb (Duration: 6.9ms | Allocations: 2895)
+Completed 200 OK in 12ms (Views: 7.4ms | ActiveRecord: 0.4ms | Allocations: 4316)
+
+
+Started PATCH "/users/1" for 127.0.0.1 at 2023-10-18 14:59:40 +0700
+Processing by UsersController#update as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"userId"=>"123", "name"=>"aaa", "email"=>"aaaa"}, "commit"=>"Update", "id"=>"1"}
+  [1m[36mUser Load (2.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/users_controller.rb:25:in `update'
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:27:in `update'
+  [1m[36mUser Update (0.9ms)[0m  [1m[33mUPDATE `users` SET `users`.`name` = 'aaa', `users`.`updated_at` = '2023-10-18 07:59:40.163537' WHERE `users`.`id` = 1[0m
+  ↳ app/controllers/users_controller.rb:27:in `update'
+  [1m[36mTRANSACTION (2.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:27:in `update'
+Redirected to http://127.0.0.1:3000/users
+Completed 302 Found in 78ms (ActiveRecord: 5.8ms | Allocations: 4165)
+
+
+Started GET "/users" for 127.0.0.1 at 2023-10-18 14:59:40 +0700
+Processing by UsersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users`[0m
+  ↳ app/views/users/index.html.erb:4
+  Rendered users/index.html.erb within layouts/application (Duration: 4.6ms | Allocations: 948)
+  Rendered layout layouts/application.html.erb (Duration: 13.7ms | Allocations: 3089)
+Completed 200 OK in 17ms (Views: 14.8ms | ActiveRecord: 0.4ms | Allocations: 3381)
+
+
+Started GET "/users/1" for 127.0.0.1 at 2023-10-18 14:59:43 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/users/1"):
+  
+Started GET "/users" for 127.0.0.1 at 2023-10-18 15:01:30 +0700
+Processing by UsersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT `users`.* FROM `users`[0m
+  ↳ app/views/users/index.html.erb:4
+  Rendered users/index.html.erb within layouts/application (Duration: 5.6ms | Allocations: 1207)
+  Rendered layout layouts/application.html.erb (Duration: 18.8ms | Allocations: 3627)
+Completed 200 OK in 32ms (Views: 26.5ms | ActiveRecord: 0.8ms | Allocations: 4828)
+
+
+Started GET "/users/1/edit" for 127.0.0.1 at 2023-10-18 15:01:31 +0700
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/users_controller.rb:21:in `edit'
+  Rendering layout layouts/application.html.erb
+  Rendering users/edit.html.erb within layouts/application
+  Rendered users/edit.html.erb within layouts/application (Duration: 2.0ms | Allocations: 1206)
+  Rendered layout layouts/application.html.erb (Duration: 7.7ms | Allocations: 3151)
+Completed 200 OK in 15ms (Views: 8.4ms | ActiveRecord: 0.7ms | Allocations: 4009)
+
+
+Started PATCH "/users/1" for 127.0.0.1 at 2023-10-18 15:01:35 +0700
+Processing by UsersController#update as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"userId"=>"123", "name"=>"bbbb", "email"=>"aaaa"}, "commit"=>"Update", "id"=>"1"}
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/users_controller.rb:25:in `update'
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:27:in `update'
+  [1m[36mUser Update (0.6ms)[0m  [1m[33mUPDATE `users` SET `users`.`name` = 'bbbb', `users`.`updated_at` = '2023-10-18 08:01:35.356939' WHERE `users`.`id` = 1[0m
+  ↳ app/controllers/users_controller.rb:27:in `update'
+  [1m[36mTRANSACTION (1.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:27:in `update'
+Redirected to http://127.0.0.1:3000/users
+Completed 302 Found in 15ms (ActiveRecord: 2.9ms | Allocations: 2909)
+
+
+Started GET "/users" for 127.0.0.1 at 2023-10-18 15:01:35 +0700
+Processing by UsersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT `users`.* FROM `users`[0m
+  ↳ app/views/users/index.html.erb:4
+  Rendered users/index.html.erb within layouts/application (Duration: 2.1ms | Allocations: 948)
+  Rendered layout layouts/application.html.erb (Duration: 8.5ms | Allocations: 3074)
+Completed 200 OK in 12ms (Views: 9.1ms | ActiveRecord: 0.3ms | Allocations: 3361)
+
+
+Started GET "/users/2/edit" for 127.0.0.1 at 2023-10-18 15:01:36 +0700
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  ↳ app/controllers/users_controller.rb:21:in `edit'
+  Rendering layout layouts/application.html.erb
+  Rendering users/edit.html.erb within layouts/application
+  Rendered users/edit.html.erb within layouts/application (Duration: 1.1ms | Allocations: 857)
+  Rendered layout layouts/application.html.erb (Duration: 13.2ms | Allocations: 2802)
+Completed 200 OK in 18ms (Views: 14.2ms | ActiveRecord: 0.3ms | Allocations: 3605)
+
+
+Started PATCH "/users/2" for 127.0.0.1 at 2023-10-18 15:01:40 +0700
+Processing by UsersController#update as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"userId"=>"2", "name"=>"333", "email"=>"333"}, "commit"=>"Update", "id"=>"2"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  ↳ app/controllers/users_controller.rb:25:in `update'
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:27:in `update'
+  [1m[36mUser Update (0.6ms)[0m  [1m[33mUPDATE `users` SET `users`.`name` = '333', `users`.`updated_at` = '2023-10-18 08:01:40.291669' WHERE `users`.`id` = 2[0m
+  ↳ app/controllers/users_controller.rb:27:in `update'
+  [1m[36mTRANSACTION (0.9ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:27:in `update'
+Redirected to http://127.0.0.1:3000/users
+Completed 302 Found in 10ms (ActiveRecord: 2.1ms | Allocations: 2878)
+
+
+Started GET "/users" for 127.0.0.1 at 2023-10-18 15:01:40 +0700
+Processing by UsersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users`[0m
+  ↳ app/views/users/index.html.erb:4
+  Rendered users/index.html.erb within layouts/application (Duration: 2.2ms | Allocations: 948)
+  Rendered layout layouts/application.html.erb (Duration: 9.6ms | Allocations: 3096)
+Completed 200 OK in 13ms (Views: 10.7ms | ActiveRecord: 0.4ms | Allocations: 3384)
+
+
+Started GET "/users/2/edit" for 127.0.0.1 at 2023-10-18 15:01:42 +0700
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  ↳ app/controllers/users_controller.rb:21:in `edit'
+  Rendering layout layouts/application.html.erb
+  Rendering users/edit.html.erb within layouts/application
+  Rendered users/edit.html.erb within layouts/application (Duration: 1.7ms | Allocations: 860)
+  Rendered layout layouts/application.html.erb (Duration: 8.7ms | Allocations: 2817)
+Completed 200 OK in 15ms (Views: 9.4ms | ActiveRecord: 0.4ms | Allocations: 3620)
+
+
+Started PATCH "/users/2" for 127.0.0.1 at 2023-10-18 15:01:45 +0700
+Processing by UsersController#update as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"userId"=>"2", "name"=>"1", "email"=>"3"}, "commit"=>"Update", "id"=>"2"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  ↳ app/controllers/users_controller.rb:25:in `update'
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:27:in `update'
+  [1m[36mUser Update (0.9ms)[0m  [1m[33mUPDATE `users` SET `users`.`name` = '1', `users`.`email` = '3', `users`.`updated_at` = '2023-10-18 08:01:46.099750' WHERE `users`.`id` = 2[0m
+  ↳ app/controllers/users_controller.rb:27:in `update'
+  [1m[36mTRANSACTION (1.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:27:in `update'
+Redirected to http://127.0.0.1:3000/users
+Completed 302 Found in 18ms (ActiveRecord: 2.7ms | Allocations: 2906)
+
+
+Started GET "/users" for 127.0.0.1 at 2023-10-18 15:01:46 +0700
+Processing by UsersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT `users`.* FROM `users`[0m
+  ↳ app/views/users/index.html.erb:4
+  Rendered users/index.html.erb within layouts/application (Duration: 2.2ms | Allocations: 948)
+  Rendered layout layouts/application.html.erb (Duration: 8.7ms | Allocations: 3082)
+Completed 200 OK in 11ms (Views: 9.0ms | ActiveRecord: 0.3ms | Allocations: 3370)
+
+
+Started GET "/users/2" for 127.0.0.1 at 2023-10-18 15:01:48 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/users/2"):
+  
+Started GET "/users" for 127.0.0.1 at 2023-10-18 15:08:22 +0700
+Processing by UsersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (1.1ms)[0m  [1m[34mSELECT `users`.* FROM `users`[0m
+  ↳ app/views/users/index.html.erb:4
+  Rendered users/index.html.erb within layouts/application (Duration: 12.2ms | Allocations: 2531)
+Importmap skipped missing path: turbo.min.js
+Importmap skipped missing path: stimulus.min.js
+Importmap skipped missing path: stimulus-loading.js
+Importmap skipped missing path: turbo.min.js
+Importmap skipped missing path: stimulus.min.js
+Importmap skipped missing path: stimulus-loading.js
+  Rendered layout layouts/application.html.erb (Duration: 59.6ms | Allocations: 24559)
+Completed 200 OK in 68ms (Views: 59.9ms | ActiveRecord: 2.2ms | Allocations: 25783)
+
+
+Started GET "/users" for 127.0.0.1 at 2023-10-18 15:08:46 +0700
+Processing by UsersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT `users`.* FROM `users`[0m
+  ↳ app/views/users/index.html.erb:5
+  Rendered users/index.html.erb within layouts/application (Duration: 4.4ms | Allocations: 1261)
+  Rendered layout layouts/application.html.erb (Duration: 11.6ms | Allocations: 3647)
+Completed 200 OK in 21ms (Views: 17.3ms | ActiveRecord: 0.7ms | Allocations: 4850)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2023-10-18 15:08:47 +0700
+Processing by UsersController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (Duration: 2.0ms | Allocations: 1137)
+  Rendered layout layouts/application.html.erb (Duration: 8.1ms | Allocations: 3090)
+Completed 200 OK in 15ms (Views: 8.9ms | ActiveRecord: 0.0ms | Allocations: 3466)
+
+
+Started POST "/users" for 127.0.0.1 at 2023-10-18 15:08:52 +0700
+Processing by UsersController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"userId"=>"3", "name"=>"2", "email"=>"3"}, "commit"=>"Create"}
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:15:in `create'
+  [1m[36mUser Create (0.7ms)[0m  [1m[32mINSERT INTO `users` (`userId`, `name`, `email`, `created_at`, `updated_at`) VALUES ('3', '2', '3', '2023-10-18 08:08:52.299393', '2023-10-18 08:08:52.299393')[0m
+  ↳ app/controllers/users_controller.rb:15:in `create'
+  [1m[36mTRANSACTION (1.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:15:in `create'
+Redirected to http://127.0.0.1:3000/users
+Completed 302 Found in 16ms (ActiveRecord: 2.1ms | Allocations: 2502)
+
+
+Started GET "/users" for 127.0.0.1 at 2023-10-18 15:08:52 +0700
+Processing by UsersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT `users`.* FROM `users`[0m
+  ↳ app/views/users/index.html.erb:5
+  Rendered users/index.html.erb within layouts/application (Duration: 7.4ms | Allocations: 1150)
+  Rendered layout layouts/application.html.erb (Duration: 15.2ms | Allocations: 3301)
+Completed 200 OK in 20ms (Views: 16.0ms | ActiveRecord: 0.9ms | Allocations: 3589)
+
+
+Started GET "/users/3" for 127.0.0.1 at 2023-10-18 15:08:55 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/users/3"):
+  
+Started GET "/users" for 127.0.0.1 at 2023-10-18 15:12:08 +0700
+Processing by UsersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT `users`.* FROM `users`[0m
+  ↳ app/views/users/index.html.erb:5
+  Rendered users/index.html.erb within layouts/application (Duration: 11.9ms | Allocations: 3198)
+Importmap skipped missing path: turbo.min.js
+Importmap skipped missing path: stimulus.min.js
+Importmap skipped missing path: stimulus-loading.js
+Importmap skipped missing path: turbo.min.js
+Importmap skipped missing path: stimulus.min.js
+Importmap skipped missing path: stimulus-loading.js
+  Rendered layout layouts/application.html.erb (Duration: 51.4ms | Allocations: 25422)
+Completed 200 OK in 64ms (Views: 51.9ms | ActiveRecord: 6.3ms | Allocations: 27389)
+
+
+Started GET "/users/3" for 127.0.0.1 at 2023-10-18 15:12:19 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/users/3"):
+  
+Started GET "/users" for 127.0.0.1 at 2023-10-18 15:13:41 +0700
+Processing by UsersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users`[0m
+  ↳ app/views/users/index.html.erb:5
+  Rendered users/index.html.erb within layouts/application (Duration: 5.1ms | Allocations: 2533)
+  Rendered layout layouts/application.html.erb (Duration: 12.7ms | Allocations: 4781)
+Completed 200 OK in 23ms (Views: 19.1ms | ActiveRecord: 0.4ms | Allocations: 5982)
+
+
+Started DELETE "/users/3" for 127.0.0.1 at 2023-10-18 15:13:43 +0700
+Processing by UsersController#destroy as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "id"=>"3"}
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms | Allocations: 716)
+
+
+  
+NameError (uninitialized constant UsersController::Post):
+  
+app/controllers/users_controller.rb:44:in `set_user'
+Started GET "/users" for 127.0.0.1 at 2023-10-18 15:14:01 +0700
+Started DELETE "/users/3" for 127.0.0.1 at 2023-10-18 15:14:05 +0700
+Processing by UsersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT `users`.* FROM `users`[0m
+  ↳ app/views/users/index.html.erb:5
+  Rendered users/index.html.erb within layouts/application (Duration: 8.2ms | Allocations: 4048)
+Importmap skipped missing path: turbo.min.js
+Importmap skipped missing path: stimulus.min.js
+Importmap skipped missing path: stimulus-loading.js
+Importmap skipped missing path: turbo.min.js
+Importmap skipped missing path: stimulus.min.js
+Importmap skipped missing path: stimulus-loading.js
+  Rendered layout layouts/application.html.erb (Duration: 44.4ms | Allocations: 25882)
+Completed 200 OK in 50ms (Views: 42.4ms | ActiveRecord: 3.2ms | Allocations: 27105)
+
+
+Processing by UsersController#destroy as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "id"=>"3"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 3 LIMIT 1[0m
+  ↳ app/controllers/users_controller.rb:44:in `set_user'
+Completed 500 Internal Server Error in 12ms (ActiveRecord: 3.1ms | Allocations: 4201)
+
+
+  
+NoMethodError (undefined method `destroy' for nil:NilClass):
+  
+app/controllers/users_controller.rb:34:in `destroy'
+Started GET "/users" for 127.0.0.1 at 2023-10-18 15:14:43 +0700
+Processing by UsersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT `users`.* FROM `users`[0m
+  ↳ app/views/users/index.html.erb:5
+  Rendered users/index.html.erb within layouts/application (Duration: 8.7ms | Allocations: 4048)
+Importmap skipped missing path: turbo.min.js
+Importmap skipped missing path: stimulus.min.js
+Importmap skipped missing path: stimulus-loading.js
+Importmap skipped missing path: turbo.min.js
+Importmap skipped missing path: stimulus.min.js
+Importmap skipped missing path: stimulus-loading.js
+  Rendered layout layouts/application.html.erb (Duration: 64.6ms | Allocations: 25882)
+Completed 200 OK in 70ms (Views: 62.7ms | ActiveRecord: 3.3ms | Allocations: 27105)
+
+
+Started DELETE "/users/3" for 127.0.0.1 at 2023-10-18 15:14:49 +0700
+Processing by UsersController#destroy as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "id"=>"3"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 3 LIMIT 1[0m
+  ↳ app/controllers/users_controller.rb:44:in `set_user'
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:34:in `destroy'
+  [1m[36mUser Destroy (0.5ms)[0m  [1m[31mDELETE FROM `users` WHERE `users`.`id` = 3[0m
+  ↳ app/controllers/users_controller.rb:34:in `destroy'
+  [1m[36mTRANSACTION (1.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:34:in `destroy'
+Redirected to http://127.0.0.1:3000/users
+Completed 302 Found in 10ms (ActiveRecord: 2.4ms | Allocations: 3260)
+
+
+Started GET "/users" for 127.0.0.1 at 2023-10-18 15:14:50 +0700
+Processing by UsersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT `users`.* FROM `users`[0m
+  ↳ app/views/users/index.html.erb:5
+  Rendered users/index.html.erb within layouts/application (Duration: 2.9ms | Allocations: 1753)
+  Rendered layout layouts/application.html.erb (Duration: 10.5ms | Allocations: 3731)
+Completed 200 OK in 13ms (Views: 10.8ms | ActiveRecord: 0.3ms | Allocations: 4019)
+
+
+Started GET "/users" for 127.0.0.1 at 2023-10-18 15:17:42 +0700
+Processing by UsersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT `users`.* FROM `users`[0m
+  ↳ app/views/users/index.html.erb:12
+  Rendered users/index.html.erb within layouts/application (Duration: 5.6ms | Allocations: 2082)
+  Rendered layout layouts/application.html.erb (Duration: 12.3ms | Allocations: 4310)
+Completed 200 OK in 23ms (Views: 18.9ms | ActiveRecord: 0.5ms | Allocations: 5513)
+
+
+Started GET "/users" for 127.0.0.1 at 2023-10-18 15:19:18 +0700
+Processing by UsersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT `users`.* FROM `users`[0m
+  ↳ app/views/users/index.html.erb:12
+  Rendered users/index.html.erb within layouts/application (Duration: 4.5ms | Allocations: 1975)
+  Rendered layout layouts/application.html.erb (Duration: 17.2ms | Allocations: 4209)
+Completed 200 OK in 28ms (Views: 24.0ms | ActiveRecord: 0.3ms | Allocations: 5410)
+
+
+Started GET "/users" for 127.0.0.1 at 2023-10-18 15:20:03 +0700
+Processing by UsersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT `users`.* FROM `users`[0m
+  ↳ app/views/users/index.html.erb:12
+  Rendered users/index.html.erb within layouts/application (Duration: 4.2ms | Allocations: 1940)
+  Rendered layout layouts/application.html.erb (Duration: 11.9ms | Allocations: 4163)
+Completed 200 OK in 22ms (Views: 18.9ms | ActiveRecord: 0.3ms | Allocations: 5365)
+
+
+Started POST "/users/1/edit" for 127.0.0.1 at 2023-10-18 15:20:39 +0700
+  
+ActionController::RoutingError (No route matches [POST] "/users/1/edit"):
+  
+Started POST "/users/2/edit" for 127.0.0.1 at 2023-10-18 15:20:44 +0700
+  
+ActionController::RoutingError (No route matches [POST] "/users/2/edit"):
+  
+Started GET "/users" for 127.0.0.1 at 2023-10-18 15:21:06 +0700
+Processing by UsersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT `users`.* FROM `users`[0m
+  ↳ app/views/users/index.html.erb:12
+  Rendered users/index.html.erb within layouts/application (Duration: 4.8ms | Allocations: 1667)
+  Rendered layout layouts/application.html.erb (Duration: 14.5ms | Allocations: 3915)
+Completed 200 OK in 25ms (Views: 20.2ms | ActiveRecord: 1.0ms | Allocations: 5120)
+
+
+Started GET "/users/1/edit" for 127.0.0.1 at 2023-10-18 15:21:08 +0700
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/users_controller.rb:44:in `set_user'
+  Rendering layout layouts/application.html.erb
+  Rendering users/edit.html.erb within layouts/application
+  Rendered users/edit.html.erb within layouts/application (Duration: 2.2ms | Allocations: 1190)
+  Rendered layout layouts/application.html.erb (Duration: 11.3ms | Allocations: 3135)
+Completed 200 OK in 17ms (Views: 12.0ms | ActiveRecord: 0.4ms | Allocations: 3998)
+
+
+Started GET "/users" for 127.0.0.1 at 2023-10-18 15:21:22 +0700
+Processing by UsersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (2.2ms)[0m  [1m[34mSELECT `users`.* FROM `users`[0m
+  ↳ app/views/users/index.html.erb:12
+  Rendered users/index.html.erb within layouts/application (Duration: 6.9ms | Allocations: 1937)
+  Rendered layout layouts/application.html.erb (Duration: 17.2ms | Allocations: 4160)
+Completed 200 OK in 27ms (Views: 21.2ms | ActiveRecord: 2.2ms | Allocations: 5361)
+
+
+Started POST "/users/1" for 127.0.0.1 at 2023-10-18 15:21:23 +0700
+  
+ActionController::RoutingError (No route matches [POST] "/users/1"):
+  
+Started GET "/users" for 127.0.0.1 at 2023-10-18 15:21:40 +0700
+Processing by UsersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT `users`.* FROM `users`[0m
+  ↳ app/views/users/index.html.erb:12
+  Rendered users/index.html.erb within layouts/application (Duration: 4.7ms | Allocations: 1926)
+  Rendered layout layouts/application.html.erb (Duration: 13.7ms | Allocations: 4174)
+Completed 200 OK in 26ms (Views: 21.9ms | ActiveRecord: 0.6ms | Allocations: 5376)
+
+
+Started GET "/users" for 127.0.0.1 at 2023-10-18 15:22:06 +0700
+Processing by UsersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users`[0m
+  ↳ app/views/users/index.html.erb:12
+  Rendered users/index.html.erb within layouts/application (Duration: 64.6ms | Allocations: 1740)
+  Rendered layout layouts/application.html.erb (Duration: 73.0ms | Allocations: 3991)
+Completed 200 OK in 92ms (Views: 83.1ms | ActiveRecord: 0.4ms | Allocations: 5192)
+
+
+Started GET "/users/1/edit" for 127.0.0.1 at 2023-10-18 15:22:17 +0700
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/users_controller.rb:44:in `set_user'
+  Rendering layout layouts/application.html.erb
+  Rendering users/edit.html.erb within layouts/application
+  Rendered users/edit.html.erb within layouts/application (Duration: 2.8ms | Allocations: 1180)
+  Rendered layout layouts/application.html.erb (Duration: 11.8ms | Allocations: 3137)
+Completed 200 OK in 18ms (Views: 12.6ms | ActiveRecord: 0.4ms | Allocations: 4000)
+
+
+Started GET "/users/123" for 127.0.0.1 at 2023-10-18 15:22:30 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/users/123"):
+  
+Started GET "/users" for 127.0.0.1 at 2023-10-18 15:23:54 +0700
+Processing by UsersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT `users`.* FROM `users`[0m
+  ↳ app/views/users/index.html.erb:12
+  Rendered users/index.html.erb within layouts/application (Duration: 3.4ms | Allocations: 1460)
+  Rendered layout layouts/application.html.erb (Duration: 9.2ms | Allocations: 3438)
+Completed 200 OK in 12ms (Views: 9.4ms | ActiveRecord: 0.6ms | Allocations: 3726)
+
+
+Started GET "/users" for 127.0.0.1 at 2023-10-18 15:24:13 +0700
+Processing by UsersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT `users`.* FROM `users`[0m
+  ↳ app/views/users/index.html.erb:12
+  Rendered users/index.html.erb within layouts/application (Duration: 4.0ms | Allocations: 1762)
+  Rendered layout layouts/application.html.erb (Duration: 11.4ms | Allocations: 3985)
+Completed 200 OK in 23ms (Views: 19.3ms | ActiveRecord: 0.5ms | Allocations: 5185)
+
+
+Started GET "/users" for 127.0.0.1 at 2023-10-18 15:24:26 +0700
+Processing by UsersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT `users`.* FROM `users`[0m
+  ↳ app/views/users/index.html.erb:12
+  Rendered users/index.html.erb within layouts/application (Duration: 4.4ms | Allocations: 1749)
+  Rendered layout layouts/application.html.erb (Duration: 10.9ms | Allocations: 3972)
+Completed 200 OK in 22ms (Views: 17.4ms | ActiveRecord: 0.3ms | Allocations: 5173)
+
+
+Started GET "/users" for 127.0.0.1 at 2023-10-18 15:25:24 +0700
+Processing by UsersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT `users`.* FROM `users`[0m
+  ↳ app/views/users/index.html.erb:12
+  Rendered users/index.html.erb within layouts/application (Duration: 3.6ms | Allocations: 1756)
+  Rendered layout layouts/application.html.erb (Duration: 11.7ms | Allocations: 3979)
+Completed 200 OK in 24ms (Views: 20.7ms | ActiveRecord: 0.3ms | Allocations: 5180)
+
+
+Started GET "/users" for 127.0.0.1 at 2023-10-18 15:25:27 +0700
+Processing by UsersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users`[0m
+  ↳ app/views/users/index.html.erb:12
+  Rendered users/index.html.erb within layouts/application (Duration: 4.0ms | Allocations: 1445)
+  Rendered layout layouts/application.html.erb (Duration: 10.4ms | Allocations: 3398)
+Completed 200 OK in 20ms (Views: 14.2ms | ActiveRecord: 0.4ms | Allocations: 3686)
+
+
+Started GET "/users" for 127.0.0.1 at 2023-10-18 15:27:06 +0700
+Processing by UsersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users`[0m
+  ↳ app/views/users/index.html.erb:14
+  Rendered users/index.html.erb within layouts/application (Duration: 3.5ms | Allocations: 1751)
+  Rendered layout layouts/application.html.erb (Duration: 9.0ms | Allocations: 3974)
+Completed 200 OK in 19ms (Views: 15.1ms | ActiveRecord: 0.4ms | Allocations: 5174)
+
+
+Started GET "/users" for 127.0.0.1 at 2023-10-18 15:27:13 +0700
+Processing by UsersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT `users`.* FROM `users`[0m
+  ↳ app/views/users/index.html.erb:14
+  Rendered users/index.html.erb within layouts/application (Duration: 9.8ms | Allocations: 1742)
+  Rendered layout layouts/application.html.erb (Duration: 17.2ms | Allocations: 3993)
+Completed 200 OK in 26ms (Views: 22.7ms | ActiveRecord: 0.5ms | Allocations: 5194)
+
+
+Started GET "/users" for 127.0.0.1 at 2023-10-18 15:28:32 +0700
+Processing by UsersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT `users`.* FROM `users`[0m
+  ↳ app/views/users/index.html.erb:14
+  Rendered users/index.html.erb within layouts/application (Duration: 6.2ms | Allocations: 1433)
+  Rendered layout layouts/application.html.erb (Duration: 17.8ms | Allocations: 3386)
+Completed 200 OK in 22ms (Views: 18.5ms | ActiveRecord: 0.5ms | Allocations: 3674)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2023-10-18 15:28:37 +0700
+Processing by UsersController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (Duration: 2.7ms | Allocations: 1122)
+  Rendered layout layouts/application.html.erb (Duration: 9.4ms | Allocations: 3087)
+Completed 200 OK in 14ms (Views: 10.9ms | ActiveRecord: 0.0ms | Allocations: 3442)
+
+
+Started POST "/users" for 127.0.0.1 at 2023-10-18 15:28:44 +0700
+Processing by UsersController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"userId"=>"", "name"=>"", "email"=>""}, "commit"=>"Create"}
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:15:in `create'
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO `users` (`userId`, `name`, `email`, `created_at`, `updated_at`) VALUES ('', '', '', '2023-10-18 08:28:44.494836', '2023-10-18 08:28:44.494836')[0m
+  ↳ app/controllers/users_controller.rb:15:in `create'
+  [1m[36mTRANSACTION (1.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:15:in `create'
+Redirected to http://127.0.0.1:3000/users
+Completed 302 Found in 12ms (ActiveRecord: 1.8ms | Allocations: 2368)
+
+
+Started GET "/users" for 127.0.0.1 at 2023-10-18 15:28:44 +0700
+Processing by UsersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users`[0m
+  ↳ app/views/users/index.html.erb:14
+  Rendered users/index.html.erb within layouts/application (Duration: 4.5ms | Allocations: 1776)
+  Rendered layout layouts/application.html.erb (Duration: 10.8ms | Allocations: 3740)
+Completed 200 OK in 14ms (Views: 11.1ms | ActiveRecord: 0.4ms | Allocations: 4027)
+
+
+Started DELETE "/users/4" for 127.0.0.1 at 2023-10-18 15:28:46 +0700
+Processing by UsersController#destroy as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "id"=>"4"}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 4 LIMIT 1[0m
+  ↳ app/controllers/users_controller.rb:44:in `set_user'
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:34:in `destroy'
+  [1m[36mUser Destroy (0.9ms)[0m  [1m[31mDELETE FROM `users` WHERE `users`.`id` = 4[0m
+  ↳ app/controllers/users_controller.rb:34:in `destroy'
+  [1m[36mTRANSACTION (1.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:34:in `destroy'
+Redirected to http://127.0.0.1:3000/users
+Completed 302 Found in 14ms (ActiveRecord: 3.4ms | Allocations: 2516)
+
+
+Started GET "/users" for 127.0.0.1 at 2023-10-18 15:28:46 +0700
+Processing by UsersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT `users`.* FROM `users`[0m
+  ↳ app/views/users/index.html.erb:14
+  Rendered users/index.html.erb within layouts/application (Duration: 2.4ms | Allocations: 1448)
+  Rendered layout layouts/application.html.erb (Duration: 7.6ms | Allocations: 3402)
+Completed 200 OK in 10ms (Views: 7.8ms | ActiveRecord: 0.3ms | Allocations: 3689)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2023-10-18 15:34:13 +0700
+Processing by UsersController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (Duration: 1.4ms | Allocations: 776)
+  Rendered layout layouts/application.html.erb (Duration: 8.8ms | Allocations: 2729)
+Completed 200 OK in 13ms (Views: 9.6ms | ActiveRecord: 0.0ms | Allocations: 3019)
+
+
+Started POST "/users" for 127.0.0.1 at 2023-10-18 15:34:14 +0700
+Processing by UsersController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"userId"=>"", "name"=>"", "email"=>""}, "commit"=>"Create"}
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:15:in `create'
+  [1m[36mUser Create (0.6ms)[0m  [1m[32mINSERT INTO `users` (`userId`, `name`, `email`, `created_at`, `updated_at`) VALUES ('', '', '', '2023-10-18 08:34:15.003022', '2023-10-18 08:34:15.003022')[0m
+  ↳ app/controllers/users_controller.rb:15:in `create'
+  [1m[36mTRANSACTION (1.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:15:in `create'
+Redirected to http://127.0.0.1:3000/users
+Completed 302 Found in 8ms (ActiveRecord: 2.1ms | Allocations: 2281)
+
+
+Started GET "/users" for 127.0.0.1 at 2023-10-18 15:34:15 +0700
+Processing by UsersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT `users`.* FROM `users`[0m
+  ↳ app/views/users/index.html.erb:14
+  Rendered users/index.html.erb within layouts/application (Duration: 3.9ms | Allocations: 1767)
+  Rendered layout layouts/application.html.erb (Duration: 11.0ms | Allocations: 3745)
+Completed 200 OK in 15ms (Views: 12.4ms | ActiveRecord: 0.3ms | Allocations: 4033)
+
+
+Started DELETE "/users/5" for 127.0.0.1 at 2023-10-18 15:34:19 +0700
+Processing by UsersController#destroy as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "id"=>"5"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 5 LIMIT 1[0m
+  ↳ app/controllers/users_controller.rb:44:in `set_user'
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:34:in `destroy'
+  [1m[36mUser Destroy (0.4ms)[0m  [1m[31mDELETE FROM `users` WHERE `users`.`id` = 5[0m
+  ↳ app/controllers/users_controller.rb:34:in `destroy'
+  [1m[36mTRANSACTION (1.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:34:in `destroy'
+Redirected to http://127.0.0.1:3000/users
+Completed 302 Found in 10ms (ActiveRecord: 2.5ms | Allocations: 2516)
+
+
+Started GET "/users" for 127.0.0.1 at 2023-10-18 15:34:19 +0700
+Processing by UsersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT `users`.* FROM `users`[0m
+  ↳ app/views/users/index.html.erb:14
+  Rendered users/index.html.erb within layouts/application (Duration: 2.7ms | Allocations: 1454)
+  Rendered layout layouts/application.html.erb (Duration: 7.7ms | Allocations: 3428)
+Completed 200 OK in 11ms (Views: 8.5ms | ActiveRecord: 0.3ms | Allocations: 3715)
+
+
+Started GET "/users" for 127.0.0.1 at 2023-10-18 15:36:21 +0700
+Processing by UsersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT `users`.* FROM `users`[0m
+  ↳ app/views/users/index.html.erb:14
+  Rendered users/index.html.erb within layouts/application (Duration: 9.1ms | Allocations: 3260)
+Importmap skipped missing path: turbo.min.js
+Importmap skipped missing path: stimulus.min.js
+Importmap skipped missing path: stimulus-loading.js
+Importmap skipped missing path: turbo.min.js
+Importmap skipped missing path: stimulus.min.js
+Importmap skipped missing path: stimulus-loading.js
+  Rendered layout layouts/application.html.erb (Duration: 56.5ms | Allocations: 25185)
+Completed 200 OK in 63ms (Views: 54.5ms | ActiveRecord: 3.7ms | Allocations: 26408)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2023-10-18 15:36:27 +0700
+Processing by UsersController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (Duration: 3.8ms | Allocations: 3755)
+  Rendered layout layouts/application.html.erb (Duration: 9.4ms | Allocations: 5713)
+Completed 200 OK in 12ms (Views: 10.0ms | ActiveRecord: 0.0ms | Allocations: 5988)
+
+
+Started POST "/users/new" for 127.0.0.1 at 2023-10-18 15:36:29 +0700
+  
+ActionController::RoutingError (No route matches [POST] "/users/new"):
+  
+Started POST "/users/new" for 127.0.0.1 at 2023-10-18 15:37:00 +0700
+  
+ActionController::RoutingError (No route matches [POST] "/users/new"):
+  
+Started GET "/users/new" for 127.0.0.1 at 2023-10-18 15:37:09 +0700
+Processing by UsersController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (Duration: 1.6ms | Allocations: 872)
+Importmap skipped missing path: turbo.min.js
+Importmap skipped missing path: stimulus.min.js
+Importmap skipped missing path: stimulus-loading.js
+Importmap skipped missing path: turbo.min.js
+Importmap skipped missing path: stimulus.min.js
+Importmap skipped missing path: stimulus-loading.js
+  Rendered layout layouts/application.html.erb (Duration: 56.1ms | Allocations: 22707)
+Completed 200 OK in 69ms (Views: 58.2ms | ActiveRecord: 3.1ms | Allocations: 25584)
+
+
+Started POST "/users" for 127.0.0.1 at 2023-10-18 15:37:11 +0700
+Processing by UsersController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"userId"=>"", "name"=>"", "email"=>""}, "commit"=>"Create"}
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:15:in `create'
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO `users` (`userId`, `name`, `email`, `created_at`, `updated_at`) VALUES ('', '', '', '2023-10-18 08:37:11.557407', '2023-10-18 08:37:11.557407')[0m
+  ↳ app/controllers/users_controller.rb:15:in `create'
+  [1m[36mTRANSACTION (0.9ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:15:in `create'
+Redirected to http://127.0.0.1:3000/users
+Completed 302 Found in 8ms (ActiveRecord: 1.4ms | Allocations: 2436)
+
+
+Started GET "/users" for 127.0.0.1 at 2023-10-18 15:37:11 +0700
+Processing by UsersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT `users`.* FROM `users`[0m
+  ↳ app/views/users/index.html.erb:14
+  Rendered users/index.html.erb within layouts/application (Duration: 3.4ms | Allocations: 1847)
+  Rendered layout layouts/application.html.erb (Duration: 8.8ms | Allocations: 3802)
+Completed 200 OK in 13ms (Views: 9.3ms | ActiveRecord: 0.3ms | Allocations: 4124)
+
+
+Started DELETE "/users/6" for 127.0.0.1 at 2023-10-18 15:37:13 +0700
+Processing by UsersController#destroy as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "id"=>"6"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 6 LIMIT 1[0m
+  ↳ app/controllers/users_controller.rb:44:in `set_user'
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:34:in `destroy'
+  [1m[36mUser Destroy (1.1ms)[0m  [1m[31mDELETE FROM `users` WHERE `users`.`id` = 6[0m
+  ↳ app/controllers/users_controller.rb:34:in `destroy'
+  [1m[36mTRANSACTION (1.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:34:in `destroy'
+Redirected to http://127.0.0.1:3000/users
+Completed 302 Found in 16ms (ActiveRecord: 2.9ms | Allocations: 3141)
+
+
+Started GET "/users" for 127.0.0.1 at 2023-10-18 15:37:13 +0700
+Processing by UsersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users`[0m
+  ↳ app/views/users/index.html.erb:14
+  Rendered users/index.html.erb within layouts/application (Duration: 2.8ms | Allocations: 1442)
+  Rendered layout layouts/application.html.erb (Duration: 7.7ms | Allocations: 3396)
+Completed 200 OK in 10ms (Views: 7.9ms | ActiveRecord: 0.4ms | Allocations: 3683)
+
+
