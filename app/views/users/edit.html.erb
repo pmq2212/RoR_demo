@@ -1,0 +1,13 @@
+<h1>Update a user</h1>
+
+<%= form_with model: @user do |form| %>
+  <%= form.label :userId, "User ID:" %>
+  <%= form.text_field :userId %>
+  <%= form.label :name, "Name:" %>
+  <%= form.text_field :name %>
+  <%= form.label :email, "Email:" %>
+  <%= form.text_field :email %>
+  <div>
+  <%= form.submit "Update" %>
+  </div>
+<% end %>

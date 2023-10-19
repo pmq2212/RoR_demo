@@ -1,0 +1,26 @@
+<h1>Index ROR</h1>
+<h2><%= link_to "Create new User", new_user_path() %></h2>
+
+<table border="1px">
+  <thead>
+  <tr width="100">
+    <th width="100">UserID</th>
+    <th width="100">Name</th>
+    <th width="150">Email</th>
+    <th width="150">Action</th>
+  </tr>
+  </thead>
+  <tbody>
+  <% @users.each do |user| %>
+    <tr>
+      <td><%= user.userId %></td>
+      <td><%= user.name %></td>
+      <td><%= user.email %></td>
+      <td>
+        <%= button_to "Edit", edit_user_path(user), method: :get %>
+        <%= button_to "Delete", user_path(user), method: :delete %>
+      </td>
+    </tr>
+  <% end %>
+  </tbody>
+</table>
